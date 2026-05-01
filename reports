@@ -1,0 +1,17 @@
+--The Ai Never Used While Completing the tasks. I have learned and i did.
+
+--TASK-1 Completed.
+--SELECT * FROM Applications WHERE category='Development';
+
+--TASK-2 Completed.
+--SELECT Vendors.vendor_name, Vendors.country FROM Vendors ORDER BY country ASC;
+
+--TASK-3 Completed.
+--SELECT Applications.app_name, Vendors.vendor_name FROM Applications INNER JOIN Vendors ON Applications.vendor_id=Vendors.vendor_id;
+
+--TASK 4 Completed.
+--SELECT Applications.app_name, Licenses.is_active From Applications INNER JOIN Licenses ON Applications.app_id=Licenses.app_id WHERE is_active=0;
+
+--TASK 5 Completed. 
+--UPDATE Vendors SET country='Germany' Where vendor_id=2
+--SELECT * from Vendors
